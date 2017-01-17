@@ -1,0 +1,21 @@
+[package]
+name = "metropolis"
+version = "0.1.0"
+authors = [ "Christoph Hartmann <chris@lollyrock.com.io>" ]
+
+description = "A Rust Fritz!Box library"
+readme = "README.md"
+keywords = []
+
+homepage = "https://github.com/chris-rock/metropolis"
+repository = "https://github.com/chris-rock/metropolis"
+
+[lib]
+name = "metropolis"
+crate-type = ["dylib"]
+
+[dependencies]
+hyper = "0.9.12"
+serde = "0.8"
+serde_derive  = "0.8"
+serde_xml = "0.9"

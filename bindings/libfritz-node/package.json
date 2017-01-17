@@ -1,0 +1,10 @@
+{
+  "name": "metropolis",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "dependencies": {
+    "ffi": "^2.2.0"
+  }
+}

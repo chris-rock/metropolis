@@ -1,0 +1,13 @@
+[package]
+name = "metropolis-cli"
+version = "0.1.0"
+authors = [ "Christoph Hartmann <chris@lollyrock.com.io>" ]
+
+[[bin]]
+name = "metropolis"
+path = "main.rs"
+
+[dependencies]
+serde = "0.8"
+serde_derive  = "0.8"
+serde_json = "0.8"
