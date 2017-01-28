@@ -8,6 +8,10 @@ name = "metropolis"
 path = "main.rs"
 
 [dependencies]
-serde = "0.8"
-serde_derive  = "0.8"
+futures = "0.1.7"
+hyper = { git = "https://github.com/hyperium/hyper.git" }
+serde = "0.8.22"
+serde_xml = "0.9"
 serde_json = "0.8"
+serde_derive = "0.8"
+tokio-core = "0.1"
